@@ -120,7 +120,7 @@ Create a base in Airtable with a table (e.g., `Books`) containing columns like:
 ```
 ├── workflow.json       # n8n workflow export
 ├── README.md           # Project documentation
-└── screenshots/        # Workflow and demo screenshots
+
 ```
 
 ---
