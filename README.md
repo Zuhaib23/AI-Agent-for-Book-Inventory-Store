@@ -43,10 +43,10 @@ When chat message received
 Below are real conversations with the agent showing results
 
 
-
-
-
 **1. Searching for a book record**
+
+
+
 <img width="251" height="167" alt="Screenshot 2026-06-24 105151" src="https://github.com/user-attachments/assets/f6825041-5eb5-44b0-b47d-90909ba6f4f7" />
 
 <img width="224" height="204" alt="Screenshot 2026-06-24 110442" src="https://github.com/user-attachments/assets/8d642ed0-5e8c-4706-ba97-7ad199e5986c" />
