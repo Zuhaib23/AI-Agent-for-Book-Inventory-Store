@@ -12,8 +12,7 @@ This agent connects a conversational AI interface to an **Airtable** database co
 
 ## 🔄 Workflow
 
-<img width="710" height="287" alt="Screenshot 2026-06-24 104948" src="https://github.com/user-attachments/assets/3320d902-ae5a-43f1-bee1-fb1361d698dd" />
-
+<img width="710" height="287" alt="n8n workflow diagram" src="https://github.com/user-attachments/assets/3320d902-ae5a-43f1-bee1-fb1361d698dd" />
 
 ```
 When chat message received
@@ -26,7 +25,7 @@ When chat message received
         └──── Update record in Airtable   (update a book)
 ```
 
-### Node breakdown
+### Node Breakdown
 
 | Node | Type | Purpose |
 |------|------|---------|
@@ -40,12 +39,23 @@ When chat message received
 ---
 
 ## 💬 Example Interactions
-<img width="251" height="167" alt="Screenshot 2026-06-24 105151" src="https://github.com/user-attachments/assets/6f043e6a-aa2b-419e-ae54-79374639b9d2" />
 
-<img width="244" height="128" alt="Screenshot 2026-06-24 105317" src="https://github.com/user-attachments/assets/09955558-c58c-445e-8fe6-a4e49b5003aa" />
+Below are real conversations with the agent showing results
+<img width="251" height="167" alt="Screenshot 2026-06-24 105151" src="https://github.com/user-attachments/assets/f6825041-5eb5-44b0-b47d-90909ba6f4f7" />
 
-<img width="248" height="206" alt="Screenshot 2026-06-24 105331" src="https://github.com/user-attachments/assets/379767ee-afed-4036-8f06-c47bf11a0d87" />
-<img width="247" height="68" alt="Screenshot 2026-06-24 105341" src="https://github.com/user-attachments/assets/758b0675-cae1-4d59-a204-a74f884fd9f3" />
+
+
+**1. Searching for a book record**
+
+<img width="224" height="204" alt="Screenshot 2026-06-24 110442" src="https://github.com/user-attachments/assets/8d642ed0-5e8c-4706-ba97-7ad199e5986c" />
+
+
+
+**2. Fetching full book details**
+
+<img width="244" height="128" alt="Screenshot 2026-06-24 105317" src="https://github.com/user-attachments/assets/7d71ec41-1ae6-4597-9130-28c3b0740447" />
+<img width="248" height="206" alt="Screenshot 2026-06-24 105331" src="https://github.com/user-attachments/assets/3767e73d-aa01-4af0-9600-ababe4985cd2" />
+
 
 
 
@@ -108,7 +118,7 @@ Create a base in Airtable with a table (e.g., `Books`) containing columns like:
 ```
 ├── workflow.json       # n8n workflow export
 ├── README.md           # Project documentation
-
+└── screenshots/        # Workflow and demo screenshots
 ```
 
 ---
